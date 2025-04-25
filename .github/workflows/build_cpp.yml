@@ -5,11 +5,11 @@ on:
       whisper_cpp_repo:
         description: 'whisper.cpp repo link'
         required: true
-        default: 'ggerganov/whisper.cpp'
+        default: 'kshitijkokkeravcu/whisper.cpp'
       whisper_cpp_repo_ref:
         description: 'Tag, branch or commit'
         required: true
-        default: 'v1.7.5'
+        default: 'master'
       target_platform:
         description: 'Target platforms'
         required: true
